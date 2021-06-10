@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>AaGDC</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div id="header-container">
+            <h1>AaGDC1</h1>
+            <div class="nav-toggle" id="navToggle">
+                <div class="navIcon" id="bars"><i class="fas fa-bars"></i></div>
+                <div class="navIcon hidden"><i class="fas fa-times"></i></div>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#" id="pagesButton">Projects<i class="fas fa-chevron-down"></i></a>
+                        <ul id="pages">
+                            <li><a href="Project1.html">Project 1</a></li>
+                            <li><a href="Project2.html">Project 2</a></li>
+                            <li><a href="Project3.html">Project 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="members.html">Members</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div id="background"></div>
+
+    <!-- Banner -->
+    <section id="banner">
+        <div>
+            <h2>App and Game Development Club</h2>
+            <p>A club devoted to the creation of distinct programs for different purposes.</p>
+            <ul id="banner-buttons">
+                <li><a href="about.html" id="banner-about">Learn more</a></li>
+                <li><a href="members.html" id="banner-members">Members</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <section id="main">
+        <div id="introBox">
+            <div>
+                <h2>The club was founded in day month, year by some very talented programmers.</h2>
+                <h3>Since then the club hasn't stopped releasing new projects.</h3>
+            </div>
+            <span class="introBoxImage"></span>
+        </div>
+        
+        <section class="gamesBox">
+            <div class="gamesRows">
+                <section class="games" id="game1">
+                    <h3>Game 1</h3>
+                    <p>This is the description for the first game. There are also three other games!</p>
+                </section>
+                <section class="games" id="game2">
+                    <h3>Game 2</h3>
+                    <p>This is the description for the second game. There are also three other games!</p>
+                </section>
+            </div>
+            <div class="gamesRows">
+                <section class="games" id="game3">
+                    <h3>Game 3</h3>
+                    <p>This is the description for the third game. There are also three other games!</p>
+                </section>
+                <section class="games" id="game4">
+                    <h3>Game 4</h3>
+                    <p>This is the description for the fourth game. There are also three other games!</p>
+                </section>
+            </div>
+        </section>
+    
+        <div class="appsBox">
+            <div>
+                <section class="singleAppBox" id="appBox1">
+                    <span class="appImage1"></span>
+                    <h3>App 1</h3>
+                    <p>This is the first app done the this team. Its functionality is to idk but it does something. App description.</p>
+                    <ul>
+                        <li><a href="contact.html" class="button alt">Learn More</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div>
+                <section class="singleAppBox" id="appBox2">
+                    <span class="appImage2"></span>
+                    <h3>App 2</h3>
+                    <p>This is the first app done the this team. Its functionality is to idk but it does something. App description.</p>
+                    <ul>
+                        <li><a href="feedback.html" class="button alt">Learn More</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- Members -->
+    <section id="members">
+        <h2>Here are all the memebers that make this possible</h2>
+        <ul>
+            <li>Devin</li>
+            <li>Gustavo</li>
+            <li>Kayode</li>
+        </ul>
+        <a href="members.html">See all members</a>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul id="icons">
+            <li><a href="https://en.wikipedia.org/wiki/Twitter" class="icon brands fa-twitter"><i
+                        class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Facebook" class="icon brands fa-facebook-f"><i
+                        class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Instagram" class="icon brands fa-instagram"><i
+                        class="fab fa-instagram-square"></i></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/GitHub" class="icon brands fa-github"><i
+                        class="fab fa-github-square"></i></a></li>
+        </ul>
+        <ul id="copyright">
+            <li>&copy; App and Game Development Club.</li>
+            <li>All rights reserved.</li>
+        </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./scripts/navbar.js"></script>
+</body>
+</html>
